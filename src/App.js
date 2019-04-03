@@ -15,7 +15,8 @@ class App extends Component {
         </header>
 
         <h1>Getting Set Up on Github</h1>
-        <h2>Generate SSH Keys</h2>
+      
+        <h3>Ease of Use</h3>
         <ol className="list">
           <li>1. <code>Generate SSH Key</code></li>
           <li>2. <code>Add Key to Github</code></li>
@@ -24,20 +25,21 @@ class App extends Component {
           <li>5. <code>Set Upstream</code></li>
         </ol>
 
-
-
-
-
-
-
-
-
-
+  
+        <h3>Useful Commands</h3>
+        <ol className="list">
+          <li><code>git clone</code></li>
+          <li><code>git commit -m "commit name"</code></li>
+          <li><code>git status</code></li>
+          <li><code>git push</code></li>
+          <li><code>git pull</code></li>
+        </ol>
 
         <div className="mw7 center">
-          #Git Aliases
+
+          <h3>Git Aliases</h3>
           <div className="mw7 center">
-          <ul>
+          <ul className="list">
           <li><code>alias grc='git rm -r --cached '</code></li>
           <li><code>alias gc='git commit -m'</code></li>
           <li><code>alias gs='git status'</code></li>
